@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/users", userRoutes);
 
 app.get("/", (req, res) => {
-    res.send("API Ready 🚀");
+    res.send("API Ready");
 });
 
 // Listen
